@@ -1,0 +1,7 @@
+mlx
+transformers
+huggingface-hub
+Pillow
+numpy
+opencv-python
+torch
