@@ -1,10 +1,10 @@
-# ComfyUI-MLX-VLM
+# mlx-vlm-ComfyUI
 
 Native Apple Silicon Integration for Vision Language Models in ComfyUI
 
 ## Overview
 
-ComfyUI-MLX-VLM is a custom node pack that brings the power of Apple's MLX framework to ComfyUI, enabling high-performance inference of Vision Language Models (VLMs) on Apple Silicon Macs. This integration leverages the Unified Memory Architecture (UMA) of M-series chips to deliver efficient, low-latency execution of massive multi-modal models without the traditional bottlenecks associated with PCI Express data transfer.
+mlx-vlm-ComfyUI is a custom node pack based on mlx-vlm by @Blaizzy that brings the power of Apple's MLX framework to ComfyUI, enabling high-performance inference of Vision Language Models (VLMs) on Apple Silicon Macs. This integration leverages the Unified Memory Architecture (UMA) of M-series chips to deliver efficient, low-latency execution of massive multi-modal models without the traditional bottlenecks associated with PCI Express data transfer.
 
 ## Key Features
 
@@ -90,6 +90,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Acknowledgments
 
+- mlx-vlm package for inference and fine-tuning of Vision Language Models (VLMs) on your Mac using MLX by @Blaizzy alias Prince Canuma
 - Apple Machine Learning Research for the MLX framework
 - The mlx-vlm community for Vision Language Model implementations
 - ComfyUI development team for the node-based interface framework
